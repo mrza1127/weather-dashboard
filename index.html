@@ -28,9 +28,29 @@
                     <div>
                         <!-- this will be for city search buttons -->
                     </div>
+                    <div id="clear-search-history" class="d-none">
+                        <hr>
+                        <button class="btn btn-secondary" id="clear-search-btn">Clear Search History</button>
+                    </div>
                 </div>
+                <!-- adding column here displaying results -->
+                <div class="col-12 col-md-8 col-lg-8">
+                    <!-- current day forecast (?) -->
+                    <div class="current-day">
+                        <h2 id="city-info">Weather Dashboard!</h2>
+                        <div id="intro">Search for a city in the search form to the left to see a forecast for today and the following 5 days</div>
+                        <div id="current-day-info">
+                            <!-- info will be generated for the current day in the input city -->
+                        </div>
+                    </div>
+                    <!-- displaying 5 day forecast here -->
+                    <div id="five-day-forecast" class="five-day-forecast mt-3">
+                        <h2>5 Day Forecast</h2>
+                    </div>
+                </div> 
             </div>
         </div>
+
     </main>
 
 </body>
