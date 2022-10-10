@@ -1,0 +1,91 @@
+body {
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+h1, h2, h3 {
+    font-weight: 700;
+}
+
+header {
+    color: white;
+    background-color: blue;
+    background: linear-gradient(90deg, rgb(50, 50, 233), rgb(59, 7, 162));
+    text-align: center;
+    padding: 10px;
+}
+
+button {
+    width: 100%;
+    margin-top: 12px;
+}
+
+.current-day {
+    border: 1px solid black;
+    padding: 15px;
+}
+
+.uv-index {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: grey;
+}
+
+.uvi-low {
+    background-color: green;
+    color: white;
+}
+
+.uvi-med-low {
+    background-color: yellow;
+}
+
+.uvi-med-high {
+    background-color: orange;
+    color: white
+}
+
+.uvi-high {
+    background-color: red;
+    color: white;
+}
+
+.uvi-scorcher {
+    background-color: rgb(59, 7, 162);
+    color: white;
+}
+
+.container-div {
+    padding: 20px;
+}
+
+.five-day-forecast {
+    display: flex;
+    justify-content: space-between;
+}
+
+.five-day-forecast-card {
+    background-color: rgb(1, 1, 35);
+    color: white;
+    padding: 15px;
+}
+
+.five-day-forecast-card h3 {
+    font-size: 1rem;
+}
+
+
+@media screen and (max-width: 730px) {
+    header {
+        width: 100%;
+    }
+
+    .five-day-forecast {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .five-day-forecast-card {
+        flex-basis: 100%;
+        margin-top: 10px;
+    }
+}
