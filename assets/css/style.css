@@ -1,7 +1,3 @@
-body {
-    font-family: 'Red Hat Display', sans-serif;
-}
-
 h1, h2, h3 {
     font-weight: 700;
 }
@@ -22,36 +18,6 @@ button {
 .current-day {
     border: 1px solid black;
     padding: 15px;
-}
-
-.uv-index {
-    padding: 5px;
-    border-radius: 5px;
-    background-color: grey;
-}
-
-.uvi-low {
-    background-color: green;
-    color: white;
-}
-
-.uvi-med-low {
-    background-color: yellow;
-}
-
-.uvi-med-high {
-    background-color: orange;
-    color: white
-}
-
-.uvi-high {
-    background-color: red;
-    color: white;
-}
-
-.uvi-scorcher {
-    background-color: rgb(59, 7, 162);
-    color: white;
 }
 
 .container-div {
